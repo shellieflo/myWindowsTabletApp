@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SHELLIE</Machine>
+    <WindowsUser>shellieflo</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>cb04b361-dc47-49d3-8a1c-2565c39002d0</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\bin\Debug\SuperWoman.Windows.exe">
+      <PackagePath>SuperWoman.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\Common\Images\BreastChck2.png">
+      <PackagePath>Common\Images\BreastChck2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\Common\Images\Weight2.png">
+      <PackagePath>Common\Images\Weight2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\Common\Images\Depression.png">
+      <PackagePath>Common\Images\Depression.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\Common\Images\measuring.png">
+      <PackagePath>Common\Images\measuring.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\Assets\selfexam.jpg">
+      <PackagePath>Assets\selfexam.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\Common\Images\exam.jpg">
+      <PackagePath>Common\Images\exam.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\Common\Images\FreeHeart.jpg">
+      <PackagePath>Common\Images\FreeHeart.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\Common\Images\selfexam.jpg">
+      <PackagePath>Common\Images\selfexam.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\Common\Images\selfexam2.jpg">
+      <PackagePath>Common\Images\selfexam2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\Common\Images\silhouette.jpg">
+      <PackagePath>Common\Images\silhouette.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Shared\Images\exam.jpg">
+      <PackagePath>Images\exam.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Shared\Images\FreeHeart.jpg">
+      <PackagePath>Images\FreeHeart.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Shared\Images\selfexam.jpg">
+      <PackagePath>Images\selfexam.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\Common\textFiles\BMI.txt">
+      <PackagePath>Common\textFiles\BMI.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\Common\textFiles\BodyFat.txt">
+      <PackagePath>Common\textFiles\BodyFat.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\Common\textFiles\Lean.txt">
+      <PackagePath>Common\textFiles\Lean.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\Common\textFiles\hipWaistRatio.txt">
+      <PackagePath>Common\textFiles\hipWaistRatio.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\Common\textFiles\TextFileDepression.txt">
+      <PackagePath>Common\textFiles\TextFileDepression.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\Common\textFiles\WeightWaist.txt">
+      <PackagePath>Common\textFiles\WeightWaist.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\README.txt">
+      <PackagePath>README.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\bin\Debug\BodyMetricPage.xbf">
+      <PackagePath>BodyMetricPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\bin\Debug\BrCheck.xbf">
+      <PackagePath>BrCheck.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\bin\Debug\BreastCheckPage.xbf">
+      <PackagePath>BreastCheckPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\bin\Debug\DepressPage.xbf">
+      <PackagePath>DepressPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\bin\Debug\Measure.xbf">
+      <PackagePath>Measure.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\bin\Debug\SurveyResultsPage.xbf">
+      <PackagePath>SurveyResultsPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\bin\Debug\SuperWoman.Windows.xr.xml">
+      <PackagePath>SuperWoman.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+C:\Users\shellieflo\Documents\GitHub\myWindowsTabletApp\SuperWoman\SuperWoman\SuperWoman.Windows\SuperWoman.Windows.csproj;neutral

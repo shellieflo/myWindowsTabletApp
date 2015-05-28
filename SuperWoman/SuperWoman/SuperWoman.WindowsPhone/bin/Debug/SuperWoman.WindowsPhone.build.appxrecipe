@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SHELLIE</Machine>
+    <WindowsUser>shellieflo</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>33307f15-16d2-4db1-b45a-030248637986</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\shellieflo\Documents\SuperWoman\SuperWoman\SuperWoman.WindowsPhone\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\shellieflo\Documents\SuperWoman\SuperWoman\SuperWoman.WindowsPhone\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\SuperWoman\SuperWoman\SuperWoman.WindowsPhone\bin\Debug\SuperWoman.WindowsPhone.exe">
+      <PackagePath>SuperWoman.WindowsPhone.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\SuperWoman\SuperWoman\SuperWoman.WindowsPhone\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\SuperWoman\SuperWoman\SuperWoman.WindowsPhone\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\SuperWoman\SuperWoman\SuperWoman.WindowsPhone\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\SuperWoman\SuperWoman\SuperWoman.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\SuperWoman\SuperWoman\SuperWoman.WindowsPhone\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\SuperWoman\SuperWoman\SuperWoman.WindowsPhone\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\SuperWoman\SuperWoman\SuperWoman.Shared\Images\BreastChck2.png">
+      <PackagePath>Images\BreastChck2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\SuperWoman\SuperWoman\SuperWoman.Shared\Images\Depression3.png">
+      <PackagePath>Images\Depression3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\SuperWoman\SuperWoman\SuperWoman.Shared\Images\Menopause2.png">
+      <PackagePath>Images\Menopause2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\SuperWoman\SuperWoman\SuperWoman.Shared\Images\Pregnancy2.png">
+      <PackagePath>Images\Pregnancy2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\SuperWoman\SuperWoman\SuperWoman.Shared\Images\Violence2.png">
+      <PackagePath>Images\Violence2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\SuperWoman\SuperWoman\SuperWoman.Shared\Images\Weight2.png">
+      <PackagePath>Images\Weight2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\SuperWoman\SuperWoman\SuperWoman.Shared\Images\exam.jpg">
+      <PackagePath>Images\exam.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\SuperWoman\SuperWoman\SuperWoman.Shared\Images\FreeHeart.jpg">
+      <PackagePath>Images\FreeHeart.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\SuperWoman\SuperWoman\SuperWoman.Shared\Images\selfexam.jpg">
+      <PackagePath>Images\selfexam.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\SuperWoman\SuperWoman\SuperWoman.Shared\Images\silhouette.jpg">
+      <PackagePath>Images\silhouette.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\SuperWoman\SuperWoman\SuperWoman.WindowsPhone\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\SuperWoman\SuperWoman\SuperWoman.WindowsPhone\bin\Debug\BreastCheckPage.xbf">
+      <PackagePath>BreastCheckPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\SuperWoman\SuperWoman\SuperWoman.WindowsPhone\bin\Debug\DepressionPage.xbf">
+      <PackagePath>DepressionPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\SuperWoman\SuperWoman\SuperWoman.WindowsPhone\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\SuperWoman\SuperWoman\SuperWoman.WindowsPhone\bin\Debug\MenopausePage.xbf">
+      <PackagePath>MenopausePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\SuperWoman\SuperWoman\SuperWoman.WindowsPhone\bin\Debug\PregnancyPage.xbf">
+      <PackagePath>PregnancyPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\SuperWoman\SuperWoman\SuperWoman.WindowsPhone\bin\Debug\ViolencePage.xbf">
+      <PackagePath>ViolencePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\SuperWoman\SuperWoman\SuperWoman.WindowsPhone\bin\Debug\WeightPage.xbf">
+      <PackagePath>WeightPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\SuperWoman\SuperWoman\SuperWoman.WindowsPhone\bin\Debug\SuperWoman.WindowsPhone.xr.xml">
+      <PackagePath>SuperWoman.WindowsPhone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shellieflo\Documents\SuperWoman\SuperWoman\SuperWoman.WindowsPhone\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="SuperWoman.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SuperWoman"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="ms-appx:///Images/FreeHeart.jpg" Stretch="UniformToFill" />
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+
+        <Image x:ConnectionId='1' Grid.Row="0" Grid.Column="0" x:Name="Weight" IsTapEnabled="True" Source="Images/Weight2.png" Margin="40,80,40,40"                       />
+        <Image x:ConnectionId='2' Grid.Row="0" Grid.Column="1" x:Name="Violence" IsTapEnabled="True" Source="Images/Violence2.png"  Margin="40,80,40,40"                         />
+        <Image x:ConnectionId='3' Grid.Row="0" Grid.Column="2" x:Name="Pregnancy" IsTapEnabled="True" Source="Images/Pregnancy2.png"  Margin="40,80,40,40"                           />
+        <Image x:ConnectionId='4' Grid.Row="1" Grid.Column="0" x:Name="BreastCheck" IsTapEnabled="True" Source="Images/BreastChck2.png"  Margin="40,40,40,80"                            />
+        <Image x:ConnectionId='5' Grid.Row="1" Grid.Column="1" x:Name="Depression" IsTapEnabled="True" Source="Images/Depression3.png" Margin="40,40,40,80"                           />
+        <Image x:ConnectionId='6' Grid.Row="1" Grid.Column="2" x:Name="Menopause" IsTapEnabled="True" Source="Images/Menopause2.png" Margin="40,40,40,80"                          />
+    </Grid>
+
+
+
+</Page>
+

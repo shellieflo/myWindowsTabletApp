@@ -1,0 +1,74 @@
+﻿<Page
+    x:Class="SuperWoman.BrCheck"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SuperWoman"
+    xmlns:common="using:SuperWoman.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">My Breast Check</x:String>
+
+    </Page.Resources>
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="ms-appx:///Images/FreeHeart.jpg" Stretch="UniformToFill" />
+        </Grid.Background>
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        Foreground="Purple"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button"/>
+            <TextBlock x:Name="pageTitle" Text="{StaticResource AppName}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Foreground="Purple" Margin="0,0,30,40"/>
+        </Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="140"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="450"/>
+                <ColumnDefinition Width="450"/>
+                <ColumnDefinition Width="450"/>
+            </Grid.ColumnDefinitions>
+        </Grid>
+        <Image x:Name="ImageB" Source="ms-appx:///Images/selfexam.jpg" Margin="0,0,270,371" Grid.Row="1" />
+
+        <TextBlock HorizontalAlignment="Left" Foreground="Purple" FontWeight="Bold" FlowDirection="LeftToRight" Margin="86,286,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="172" Width="300" FontSize="16" Text="Begin by placing your hands at your underarms. Work your way down the breast and back up again. Repeat until you have got to the other side of your breast" />
+        <TextBlock Grid.Column="0" HorizontalAlignment="Center" Foreground="Purple" FontWeight="Bold"  FlowDirection="LeftToRight" Margin="418,285,648,0" Grid.Row="1" TextWrapping="Wrap"  VerticalAlignment="Top" Height="136" FontSize="16" TextAlignment="Justify"  FontStretch="Expanded" IsColorFontEnabled="True" Width="300" Text="Begin by placing your hands at the outer side of your breast. Moving in a circular direction, continue until you reach your nipple."/>
+        <TextBlock HorizontalAlignment="Right" Foreground="Purple" FontWeight="Bold"  FlowDirection="LeftToRight" Margin="0,285,314,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="158" FontSize="16" TextAlignment="Justify"  FontStretch="Expanded" IsColorFontEnabled="True" Width="300" Text="Start at the outer side of your breast. Move your fingers towards your nipple and when you get there, return to your original position. Move your fingers slightly to the side and repeat. Continue until you cover the entire breast."/>
+        <TextBlock HorizontalAlignment="Center" FontSize="16" FontWeight="Bold" Foreground="Crimson" FontStyle="Italic" FlowDirection="LeftToRight" Margin="1113,3,21,170" TextWrapping="Wrap" TextAlignment="Center" FontStretch="Condensed" IsColorFontEnabled="True" Text="WHAT TO LOOK OUT FOR:&#10;&#10; Nipple DISCHARGE&#10;&#10; Feel for LUMPS and THICKENING&#10;&#10;Look for SWELLING in armpit or around your collarbone&#10;&#10; Look for a change in SIZE and SHAPE&#10;&#10;Look for nipple INVERSION and changes in direction.&#10;&#10;Look for RASH or CRUSTING around the nipple&#10;" Grid.Row="1" Width="232"/>  
+                                                                                                                                                                                                                      
+    </Grid>
+</Page>
